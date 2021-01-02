@@ -1,0 +1,22 @@
+body{
+    margin: 2.5rem;
+}
+
+.nav-link{
+    color: black!important;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#social{
+    color: black!important;
+
+}
+
+
+
+@media (max-width: 1199.98px){
+
+}
+@media (max-width: 767.98px){
+
+}
