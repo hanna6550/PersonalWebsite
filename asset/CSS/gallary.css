@@ -1,5 +1,5 @@
 body{
-    margin: .5rem;
+    
     text-decoration-line: none;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Passion One', cursive;
@@ -87,6 +87,15 @@ body{
     .navbar-links.active{
         display: flex;
     }
+}
+
+.container{
+    margin: 3px;
+    padding: 3px;
+}
+img{
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 
