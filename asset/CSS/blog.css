@@ -1,8 +1,6 @@
 body{
     margin: .5rem;
     text-decoration-line: none;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Passion One', cursive;
 }
 .navbar {
     display: flex;
@@ -15,10 +13,10 @@ body{
     display: flex;
     color: black;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
 }
 .navbar-links li a {
+    font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color: black;
     padding: 1.5rem;
@@ -28,10 +26,9 @@ body{
 
 .nav-link a h1{
     font-size: 3rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     margin-top: 10px;
 }
 
