@@ -1,9 +1,8 @@
 body{
-    margin-left: .5rem;
-    margin-right: .5rem;
     text-decoration: none;
     
 }
+                               /*------ navigation ----- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,7 +17,7 @@ body{
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     list-style: none;
-    margin-top: 30px; 
+    /* margin-top: 30px;  */
     
 }
 .navbar-links li a {
@@ -39,23 +38,23 @@ body{
 
 }
 
-.social{
-    color:red!important;
-    font-size: 25px;
-    margin-right: 6px;
-    
-    
-
-}
-#socialC{
-    color: black!important;
-    padding-right: 2.5rem;
-    align-items: center;
-}
+                         /* ----- main body ----- */
 #h1Contact{
+    margin-top: 40px;
     font-family: 'Bebas Neue', cursive;
-    padding-top: 0px;
+    font-size: 50px;
 }
+
+
+#socialC{
+    margin-top: 25px;
+    color: black!important;
+    padding-right: 1rem;
+    align-items: center;
+    font-size: xx-large;
+}
+ 
+                         /*----- toggler -----*/
 .toggle-button {
     position: absolute;
     top: .75rem;

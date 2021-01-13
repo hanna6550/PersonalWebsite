@@ -2,6 +2,8 @@ body{
     margin: .5rem;
     text-decoration-line: none;
 }
+
+                    /* ----- Navigation ----- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,16 @@ body{
     padding-right: 2.5rem;
     align-items: center;
 }
+
+                        /* ----- Main Body ----- */
+
+
+.p {
+    font-family: 'Jost', sans-serif;
+
+}
+
+                        /* ------ toggler ----- */
 .toggle-button {
     position: absolute;
     top: .75rem;
