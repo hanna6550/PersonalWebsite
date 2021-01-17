@@ -31,19 +31,27 @@ body{
 }
 
 .nav-link a h1{
-    font-size: 60px;
+    font-size: 3.5rem;
     color: black;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
+    padding-right: 25rem;
 
 }
+#social{
+    font-size: 1.5rem;
+    padding-right: 0rem;
+}
+.swe{
+    font-size: 1rem;
 
+}
 
 /* ----- Toggle ----- */
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -57,6 +65,7 @@ body{
     width: 100%;
     background-color: black;
     border-radius: 10px;
+    
 }
 
 @media (max-width: 1090px) {
@@ -76,6 +85,9 @@ body{
     .navbar-links li {
         text-align: center;
     }
+    .social2{
+        display: none;
+    }
     .navbar-links li a {
         padding: .5rem 1rem;
     }
@@ -85,13 +97,14 @@ body{
 }
 
                         /* ----- Main body -----  */
-.container{
+/* .container{
     margin: 3px;
     padding: 3px;
-}
+} */
 img{
-    border: 1px;
-    border-radius: 5px;
+    /* border: 1px;
+    border-radius: 5px; */
+    padding-top: 1rem;
 }
 
 .far {

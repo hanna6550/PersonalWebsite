@@ -10,6 +10,7 @@ body{
     align-items: center;
     color: white;
     font-family: 'Bebas Neue', cursive;
+
 }
 
 .nav-link ul {
@@ -28,21 +29,37 @@ body{
     display: block;
     /* margin-top: 30px; */
     font-size: larger;
+    font-size: 1rem;
+    /* padding-top: 5rem; */
     
 }
 
+
 .nav-link a h1{
-    font-size: 60px;
+    font-size: 3.5rem;
     color: white;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
+    padding-right: 15rem;
+    /* padding-top: 2rem; */
 
+}
+#social{
+    font-size: 1.3rem;
+    padding-right: 0rem;
+}
+.padding{
+    padding-left: 2.5rem;
+}
+.swe{
+    font-size: 1rem;
+    padding-bottom: 0rem;
 }
 
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -54,7 +71,7 @@ body{
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -74,6 +91,9 @@ body{
     }
     .navbar-links li {
         text-align: center;
+    }
+    .social{
+        display: none;
     }
     .navbar-links li a {
         padding: .5rem 1rem;

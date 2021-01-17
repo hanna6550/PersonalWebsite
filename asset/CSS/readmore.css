@@ -51,24 +51,61 @@ body{
 }
 
 /* ----- Main Body ----- */
-.img{
+
+.first{
+    padding-top: 2.5rem;
+    font-size: 12px;
     padding-bottom: 3rem;
-    padding-top: 1rem;
+    font-weight: 1000;
 }
-            
-.date{
-    padding-bottom: 1.6rem;
-}
-.h3{
-    padding-bottom: 1.6rem;
-    font-size: 40px;
+.second{
     font-family: 'Xanh Mono', monospace;
-    font-weight: 500;
 }
-
-.p {
+.icon{
+    font-size: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: gray;
+    padding-right: 0.8rem;
+}
+.row h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.img{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.main p{
     font-family: 'Jost', sans-serif;
-
+}
+.third{
+    font-weight: bold;
+    padding-top: 1rem;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.fourth{
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.lefti{
+    font-size: 4rem;
+    padding-top: 0.5rem;
+}
+.righti{
+    font-size: 4rem;
+    padding-top: 0.5rem;
+}
+.hpn{
+    font-size: 10px;
+}
+/* .h1i{
+    font-family: 'Jost', sans-serif;
+} */
+.h6i{
+    font-size: 15px;
 }
 
                         /* ------ toggler ----- */
