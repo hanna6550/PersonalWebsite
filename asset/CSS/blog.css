@@ -71,6 +71,11 @@ body{
 
 }
 
+.small{
+    margin-bottom: 5rem;
+    padding-left: 1rem;
+}
+
                         /* ------ toggler ----- */
 .toggle-button {
     position: absolute;

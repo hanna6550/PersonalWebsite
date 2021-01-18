@@ -101,9 +101,9 @@ body{
 .hpn{
     font-size: 10px;
 }
-/* .h1i{
-    font-family: 'Jost', sans-serif;
-} */
+.h1i{
+    font-family: 'Xanh Mono', monospace; 
+}
 .h6i{
     font-size: 15px;
 }

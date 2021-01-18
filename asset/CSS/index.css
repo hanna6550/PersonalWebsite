@@ -92,7 +92,7 @@ body{
     .navbar-links li {
         text-align: center;
     }
-    .social{
+    #social{
         display: none;
     }
     .navbar-links li a {
