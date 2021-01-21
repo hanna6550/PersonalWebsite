@@ -19,7 +19,6 @@ body{
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     list-style: none;
-    /* margin-top: 30px;  */
     
 }
 .navbar-links li a {
@@ -27,10 +26,8 @@ body{
     color: white;
     padding: 1.5rem;
     display: block;
-    /* margin-top: 30px; */
     font-size: larger;
     font-size: 1rem;
-    /* padding-top: 5rem; */
     
 }
 
@@ -40,8 +37,7 @@ body{
     color: white;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
-    padding-right: 15rem;
-    /* padding-top: 2rem; */
+    padding-right: 10rem;
 
 }
 #social{
@@ -52,8 +48,11 @@ body{
     padding-left: 2.5rem;
 }
 .swe{
+    color: white;
     font-size: 1rem;
-    padding-bottom: 0rem;
+}
+.navall{
+    padding-left: 0rem;
 }
 
 
@@ -101,21 +100,12 @@ body{
     .navbar-links.active{
         display: flex;
     }
-}
-
-
-@media (max-width: 1199.98px){
-
-}
-@media (max-width: 767.98px){
-
-}
-
-@media (max-width: 1199.98px){
-
-}
-@media (max-width: 767.98px){
-    
+    .nav-link a h1{
+        font-size: 2rem;
+    }
+    .swe{
+        display: none;
+    }
 }
 
 

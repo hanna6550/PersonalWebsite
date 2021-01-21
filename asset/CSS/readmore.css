@@ -35,7 +35,7 @@ body{
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     margin-top: 10px;
-    padding-right: 20rem;
+    padding-right: 10rem;
 }
 
 #social{
@@ -48,6 +48,7 @@ body{
 }
 .swe{
     font-size: 1rem;
+    color: black;
 }
 
 /* ----- Main Body ----- */
@@ -146,6 +147,9 @@ body{
     }
     #social{
         display: none;
+    }
+    .nav-link a h1{
+        font-size: 2rem;
     }
     .swe{
         display: none;

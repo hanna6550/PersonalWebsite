@@ -1,9 +1,8 @@
 body{
+    text-decoration: none;
     
-    text-decoration-line: none;
 }
-
-                    /* ----- Navigation ----- */
+                               /*------ navigation ----- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -16,17 +15,17 @@ body{
     display: flex;
     color: black;
     text-decoration: none;
-    list-style: none;
     font-family: 'Bebas Neue', cursive;
-
+    list-style: none;
+    
 }
 .navbar-links li a {
-    font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color: black;
     padding: 1.5rem;
     display: block;
-    /* margin-top: 30px; */
+    font-size: larger;
+    
 }
 
 .nav-link a h1{
@@ -34,22 +33,19 @@ body{
     color: black;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
-    margin-top: 10px;
-    padding-right: 20rem;
-}
-
-#social{
-    padding-right: 0rem;
-    color: black!important;
-    font-size: 1.3rem;
+    padding-right: 10rem;
 }
 .padding{
     padding-left: 2.5rem;
 }
+#social{
+    font-size: 1.3rem;
+    padding-right: 0rem;
+}
 .swe{
     font-size: 1rem;
+    color: black;
 }
-
 /* ----- Main Body ----- */
 .img{
     padding-bottom: 3rem;
@@ -115,6 +111,9 @@ body{
     #social{
         display: none;
     }
+    .nav-link a h1{
+        font-size: 2rem;
+    }
     .swe{
         display: none;
     }
@@ -129,10 +128,3 @@ body{
     }
 }
 
-
-@media (max-width: 1199.98px){
-
-}
-@media (max-width: 767.98px){
-
-}

@@ -25,7 +25,6 @@ body{
     color: black;
     padding: 1.5rem;
     display: block;
-    /* margin-top: 30px; */
 }
 
 .navbar-links li a h4{
@@ -38,7 +37,7 @@ body{
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     margin-top: 10px;
-    padding-right: 15rem;
+    padding-right: 10rem;
 }
 .padding{
     padding-left: 2.5rem;
@@ -51,7 +50,8 @@ body{
 }
 .swe{
     font-size: 1rem;
-
+    color: black;
+    font-family: 'Bebas Neue', cursive;
 }
 
 /* ----- Main Body ----- */
@@ -121,6 +121,12 @@ body{
     }
     .navbar-links.active{
         display: flex;
+    }
+    .nav-link a h1{
+        font-size: 2rem;
+    }
+    .swe{
+        display: none;
     }
 }
 

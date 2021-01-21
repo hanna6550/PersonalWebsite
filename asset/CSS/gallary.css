@@ -35,7 +35,7 @@ body{
     color: black;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
-    padding-right: 25rem;
+    padding-right: 7rem;
 
 }
 #social{
@@ -43,8 +43,8 @@ body{
     padding-right: 0rem;
 }
 .swe{
+    color: black;
     font-size: 1rem;
-    padding-bottom: 3rem;
 }
 .r{
     padding-bottom: 0.5rem;
@@ -105,19 +105,14 @@ body{
     .navbar-links.active{
         display: flex;
     }
+    .nav-link a h1{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .swe{
+        display: none;
+    }
 }
 
-                        /* ----- Main body -----  */
-/* .container{
-    margin: 3px;
-    padding: 3px;
-} */
+                        
 
-
-
-@media (max-width: 1199.98px){
-
-}
-@media (max-width: 767.98px){
-
-}
